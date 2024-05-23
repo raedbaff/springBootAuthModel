@@ -1,0 +1,10 @@
+package com.securityModel.repository;
+
+import com.securityModel.models.Complaint;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+
+public interface ComplaintRepository extends JpaRepository<Complaint,Long> {
+}
